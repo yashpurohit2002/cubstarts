@@ -1,0 +1,49 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+}
+
+
+.button {
+  background-color: #001eff; /* Green */
+  border: white;
+  color: white;
+  padding: 15px 32px;
+  margin: 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.button:hover {
+  background-color: #ffffff; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+
+.container {
+  color: blue;
+  border: black, 3px;
+  background-color: #000000; /* Green */
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration:wavy, underline;
+  display: inline-block;
+  font-size: 200%;
+}
+
+.card {
+  background-color: white;
+}
